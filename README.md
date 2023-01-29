@@ -2,7 +2,9 @@
 
 <details>
 
-<summary>Set Up Backend Database &#x3C;JoD Operations Team></summary>
+<summary>Set Up Backend Database</summary>
+
+Set Up Backend Database \<JoD Operations Team>
 
 1. Create customer record in database table "customers"
    1. Organization Is Active = Yes (select)
@@ -26,7 +28,9 @@ _Note: No need to create JoD User(s) via the database - instead they will be cre
 
 <details>
 
-<summary>Create Initial JoD Users via the Tables' Admin &#x3C;JoD Admin></summary>
+<summary>Create Initial JoD Users</summary>
+
+Create Initial JoD Users via the Tables' Admin \<JoD Admin>
 
 Using the super admin's add user tool...&#x20;
 
@@ -51,7 +55,9 @@ If users are having issues with setting up their account:&#x20;
 
 <details>
 
-<summary>Create Initial Elements via the Tables’ GUI &#x3C;Org Admin></summary>
+<summary>Create Initial Elements</summary>
+
+Create Initial Elements via the Tables’ GUI \<Org Admin>
 
 1. Add Org Members (Org Admin)
 2. Convert Org Members to JoD Users and Invite them to the Tables Application (via email request to JustOrg Design ONLY)
