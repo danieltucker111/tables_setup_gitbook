@@ -1,4 +1,4 @@
-# JoD Tables Customer Setup Guide
+# Customer Setup Guide
 
 <details>
 
