@@ -57,25 +57,3 @@
    1. What about changes to user email? (update in user table and org member table)
 
 </details>
-
-<details>
-
-<summary></summary>
-
-
-
-</details>
-
-\
-
-
-
-
-###
-
-
-
-###
-
-\
-\
