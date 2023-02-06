@@ -17,7 +17,7 @@ Set Up Backend Database \<JoD Operations Team>
    3. Staff Full Name
       1. Staff First Name
       2. Staff Last Name
-   4. Member is JoD User = [No (select)](#user-content-fn-1)[^1]
+   4. Member is JoD User = No (select) [_\[note\]_](#user-content-fn-1)[^1]__
    5. Work Email (ensure consistency with User record)
    6. Position = OPTIONAL
    7. Position Level = OPTIONAL
@@ -70,4 +70,4 @@ _Note: Only JoD Users can log into the Tables Application and be Sponsors or Con
 
 </details>
 
-[^1]: N_ote stetting this field to Yes would prevent the user from showing up in the Create New User dropdown._&#x20;
+[^1]: S_etting this field to Yes would prevent the user from showing up in the Create New User dropdown._&#x20;
