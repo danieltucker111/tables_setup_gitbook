@@ -43,7 +43,7 @@ Using the super admin's add user tool...&#x20;
 
 _Note: All fields are required. The Create User button will change to a JoD-purple color when the record is ready to be submitted._&#x20;
 
-**IMPORTANT NOTE:**&#x20;
+<mark style="color:red;">**IMPORTANT NOTES**</mark>&#x20;
 
 If users are having issues with setting up their account:&#x20;
 
