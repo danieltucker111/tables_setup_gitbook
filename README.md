@@ -17,7 +17,8 @@ Set Up Backend Database \<JoD Operations Team>
    3. Staff Full Name
       1. Staff First Name
       2. Staff Last Name
-   4. Member is JoD User = Yes (select)
+   4. Member is JoD User = No (select) \
+      _<mark style="color:purple;">-- note stetting this field to</mark>_ [_<mark style="color:purple;">Yes</mark>_](#user-content-fn-1)[^1] _<mark style="color:purple;">would prevent the user from showing up in the Create New User dropdown.</mark>_&#x20;
    5. Work Email (ensure consistency with User record)
    6. Position = OPTIONAL
    7. Position Level = OPTIONAL
@@ -69,3 +70,5 @@ Create Initial Elements via the Tables’ GUI \<Org Admin>
 _Note: Only JoD Users can log into the Tables Application and be Sponsors or Conveners_
 
 </details>
+
+[^1]: this is annotate
