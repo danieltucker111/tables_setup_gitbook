@@ -17,10 +17,11 @@ Set Up Backend Database \<JoD Operations Team>
    3. Staff Full Name
       1. Staff First Name
       2. Staff Last Name
-   4. Member is JoD User = No (select) [_\[note\]_](#user-content-fn-1)[^1]__
+   4. Member is JoD User = No (select) [_\[note\]_](#user-content-fn-1)[^1]
    5. Work Email (ensure consistency with User record)
-   6. Position = OPTIONAL
-   7. Position Level = OPTIONAL
+   6. Slug = org-name-fname-lname
+   7. Position = OPTIONAL
+   8. Position Level = OPTIONAL
 
 _Note: No need to create JoD User(s) via the database - instead they will be created via the Admin interface - see next step._&#x20;
 
