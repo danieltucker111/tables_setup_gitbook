@@ -22,6 +22,7 @@ Set Up Backend Database \<JoD Operations Team>
    6. Slug = org-name-fname-lname
    7. Position = OPTIONAL
    8. Position Level = OPTIONAL
+   9. Everything else can be left blank
 
 _Note: No need to create JoD User(s) via the database - instead they will be created via the Admin interface - see next step._&#x20;
 
