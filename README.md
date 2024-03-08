@@ -10,7 +10,8 @@ Set Up Backend Database \<JoD Operations Team>
    1. Organization Is Active = Yes (select)
    2. Customer Name
    3. Customer Logo
-   4. Slug
+   4. Hex Code for Primary Org Color (used for Strat Slide Rpt)
+   5. Slug
 2. Create initial Org Member(s) in the org\_members table
    1. Organization\_ID
    2. Active = "Yes" (string)
