@@ -21,7 +21,7 @@ Set Up Backend Database \<JoD Operations Team>
       2. Staff Last Name
    4. Member is JoD User = No (select) [_\[note\]_](#user-content-fn-1)[^1]
    5. Work Email (ensure consistency with User record)
-   6. Slug = org-name-fname-lname
+   6. Slug = \[Leave blank - DO NOT add Slug]
    7. Position = OPTIONAL
    8. Position Level = OPTIONAL
    9. Everything else can be left blank
