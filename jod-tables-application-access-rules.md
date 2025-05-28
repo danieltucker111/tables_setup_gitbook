@@ -10,19 +10,7 @@ description: RBAC, System, and Feature-Based
 
 <summary>Application’s Left Nav Bar Element is Visible</summary>
 
-|                      | Super Admin | Org Admin | Designer | User |
-| -------------------- | :---------: | :-------: | :------: | :--: |
-| Design               |      ✅      |     ✅     |     ✅    |   ✅  |
-| My Dashboard         |      ✅      |     ✅     |     ✅    |   ✅  |
-| Meetings             |      ✅      |     ✅     |     ✅    |   ✅  |
-| Reports              |      ✅      |     ✅     |     ✅    |   ✅  |
-| Decisions🔒          |      ✅      |     ✅     |     ✅    |   ❌  |
-| Structure🔒          |      ✅      |     ✅     |     ✅    |   ❌  |
-| Strategic Priorities |      ✅      |     ✅     |     ✅    |   ✅  |
-| Org Strategies       |      ✅      |     ✅     |     ✅    |   ✅  |
-| Values               |      ✅      |     ✅     |     ✅    |   ✅  |
-| Org Members🔒        |      ✅      |     ✅     |     ❌    |   ❌  |
-| Community Mbrs🔒     |      ✅      |     ✅     |     ❌    |   ❌  |
+<table><thead><tr><th width="190.8203125"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="119.21484375" align="center">Designer</th><th width="109.87890625" align="center">User</th></tr></thead><tbody><tr><td>Design</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>My Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Meetings</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Reports</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Decisions🔒</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Structure🔒</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Strategic Priorities</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Org Strategies</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Values</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Org Members🔒</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Community Mbrs🔒</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr></tbody></table>
 
 </details>
 
@@ -32,14 +20,7 @@ description: RBAC, System, and Feature-Based
 
 <summary>Design Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer |  User  |
-| ---------------------------- | :---------: | :-------: | :------: | :----: |
-| Can View                     |      ✅      |     ✅     |     ✅    |    ✅   |
-| Can Click to Detail          |      ✅      |     ✅     |     ✅    | ❌ (??) |
-| Can Filter                   |      ✅      |     ✅     |    ☑️    |   ☑️   |
-| Can Sort                     |      ✅      |     ✅     |     ❌    |    ❌   |
-| Create Record from Dashboard |      ◻️     |     ◻️    |    ◻️    |   ◻️   |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |   ◻️   |
+<table><thead><tr><th width="202.0390625"></th><th align="center">Super Admin</th><th width="115.85546875" align="center">Org Admin</th><th width="113.625" align="center">Designer</th><th width="107.58984375" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌ (??)</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">☑️</td><td align="center">☑️</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -56,22 +37,16 @@ Notes:
 
 <summary>My Dashboard</summary>
 
-|                              |     Super Admin     |      Org Admin      |       Designer      |         User        |
-| ---------------------------- | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Can View                     | <p>☑️</p><p>(p)</p> | <p>☑️</p><p>(p)</p> | <p>☑️</p><p>(p)</p> | <p>☑️</p><p>(p)</p> |
-| Can Click to Detail          | <p>☑️</p><p>(p)</p> | <p>☑️</p><p>(p)</p> | <p>☑️</p><p>(p)</p> | <p>☑️</p><p>(p)</p> |
-| Can Filter                   |          ✅          |          ✅          |          ✅          |          ✅          |
-| Can Sort                     |          ◻️         |          ◻️         |          ◻️         |          ◻️         |
-| Create Record from Dashboard |          ◻️         |          ◻️         |          ◻️         |          ◻️         |
-| Delete from Dashboard        |          ◻️         |          ◻️         |          ◻️         |          ◻️         |
+<table><thead><tr><th width="251.234375"></th><th width="121.26171875" align="center">Super Admin</th><th width="111.08203125" align="center">Org Admin</th><th width="102.43359375" align="center">Designer</th><th width="92.125" align="center">User</th></tr></thead><tbody><tr><td>Can View Page</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can View Team/Table Card</td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td></tr><tr><td>Can Click to Team/Table Detail</td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td></tr><tr><td>Can View My Open Commitments</td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td></tr><tr><td>Can View My Open Group Lead Tasks</td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
-2. ☑️ = partial capacity: only for Teams/Table where the user is a participant
-3. Filter = active vs inactive
-4. All users can mark their Commitments as “Ready”
+2. ☑️(p) = only for Teams/Table where the user is a participant
+3. ☑️(gl) = only for Teams/Table where the user is a Group Lead
+4. Filter = active vs inactive
+5. All users can mark their Commitments as “Ready”
 {% endhint %}
 
 </details>
@@ -80,21 +55,14 @@ Notes:
 
 <summary>Meetings Dashboard</summary>
 
-|                              |       Super Admin      |        Org Admin       |        Designer        |          User          |
-| ---------------------------- | :--------------------: | :--------------------: | :--------------------: | :--------------------: |
-| Can View                     |            ✅           |            ✅           |            ✅           |   <p>☑️</p><p>(p)</p>  |
-| Can Click to Detail          |   <p>☑️</p><p>(p)</p>  |   <p>☑️</p><p>(p)</p>  |   <p>☑️</p><p>(p)</p>  |   <p>☑️</p><p>(p)</p>  |
-| Can Filter                   |            ✅           |            ✅           |            ✅           |   <p>☑️</p><p>(p)</p>  |
-| Can Sort                     |           ◻️           |           ◻️           |           ◻️           |           ◻️           |
-| Create Record from Dashboard | <p>☑️</p><p>(p+gl)</p> | <p>☑️</p><p>(p+gl)</p> | <p>☑️</p><p>(p+gl)</p> | <p>☑️</p><p>(p+gl)</p> |
-| Delete from Dashboard        |           ◻️           |           ◻️           |           ◻️           |           ◻️           |
+<table><thead><tr><th width="198.296875"></th><th align="center">Super Admin</th><th width="125.91796875" align="center">Org Admin</th><th width="118.3828125" align="center">Designer</th><th width="101.45703125" align="center">User</th></tr></thead><tbody><tr><td>Can View Summary Info</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center"><p>☑️</p><p>(p)</p></td></tr><tr><td>Can Click to Detail</td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td><td align="center"><p>☑️</p><p>(p)</p></td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center"><p>☑️</p><p>(p)</p></td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
-2. ☑️ = partial capacity for view, filter, and click to: only for Groups where they are a participant
-3. ☑️ = partial capacity for create from dashboard: only where User is GL for Groups where they are a participant
+2. ☑️ (p) = partial capacity for view, filter, and click to: only for Groups where they are a participant
+3. ☑️(gl) = partial capacity for create from dashboard: only where User is a GL for the team/table
 4. Filter = active vs inactive, user tables/teams, and meeting start time
 {% endhint %}
 
@@ -104,20 +72,13 @@ Notes:
 
 <summary>Reports Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ✅    |  ☑️  |
-| Can Click to Detail          |      ✅      |     ✅     |     ✅    |  ☑️  |
-| Can Filter                   |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Can Sort                     |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Create Record from Dashboard |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="164.1875"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th align="center">Designer</th><th align="center">User</th></tr></thead><tbody><tr><td>Can View Page</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can View Report Summary Info</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">☑️</td></tr><tr><td>Can Click to Detailed Report</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">☑️</td></tr><tr><td>Can Filter List</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Can Sort List</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
-2. ☑️ = partial capacity: Only Unlocked Reports (reports without 🔒 icon)
+2. ☑️ = partial capacity: Only Unlocked Reports (reports <mark style="color:red;">WITHOUT</mark> the 🔒 icon)
 {% endhint %}
 
 </details>
@@ -126,22 +87,14 @@ Notes:
 
 <summary>Decisions Dashboard</summary>
 
-|                              |                Super Admin                |                 Org Admin                 |                  Designer                 | User |
-| ---------------------------- | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: | :--: |
-| Can View                     |                     ✅                     |                     ✅                     |                     ✅                     |   ❌  |
-| Update Record from Dashboard | <p>☑️</p><p>(p+gl)</p><p>(See note 3)</p> | <p>☑️</p><p>(p+gl)</p><p>(See note 3)</p> | <p>☑️</p><p>(p+gl)</p><p>(See note 3)</p> |   ❌  |
-| Can Click to Detail          |           <p>☑️</p><p>(p+gl)</p>          |           <p>☑️</p><p>(p+gl)</p>          |           <p>☑️</p><p>(p+gl)</p>          |   ❌  |
-| Can Filter                   |                     ✅                     |                     ✅                     |                     ✅                     |   ❌  |
-| Can Sort                     |                     ◻️                    |                     ◻️                    |                     ◻️                    |  ◻️  |
-| Create Record from Dashboard |                     ◻️                    |                     ◻️                    |                     ◻️                    |  ◻️  |
-| Delete from Dashboard        |           <p>☑️</p><p>(p+gl)</p>          |           <p>☑️</p><p>(p+gl)</p>          |           <p>☑️</p><p>(p+gl)</p>          |   ❌  |
+<table><thead><tr><th width="189.44921875"></th><th width="127.3125" align="center">Super Admin</th><th align="center">Org Admin</th><th width="115.46484375" align="center">Designer</th><th width="112.96875" align="center">User</th></tr></thead><tbody><tr><td>Can View Page</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Update Record from Dashboard</td><td align="center"><p>☑️</p><p>(gl)</p><p>(See note 3)</p></td><td align="center"><p>☑️</p><p>(gl)</p><p>(See note 3)</p></td><td align="center"><p>☑️</p><p>(gl)</p><p>(See note 3)</p></td><td align="center">❌</td></tr><tr><td>Can Click to Detail</td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center">❌</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center"><p>☑️</p><p>(gl)</p></td><td align="center">❌</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
-2. ☑️ = partial capacity:  only where User is GL for Groups where they are a participant (record deletion occurs via popup of decision record on page.
-3. Also note that these users can update such records as well via a popup on the dashboard screen.
+2. ☑️(gl) = partial capacity:  only where User is GL for the team/table who created the decision (record deletion occurs via popup of decision record on page).
+3. These users can update decision records via a popup on the dashboard screen.
 {% endhint %}
 
 </details>
@@ -150,14 +103,7 @@ Notes:
 
 <summary>Structure Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ✅    |   ❌  |
-| Can Click to Detail          |      ✅      |     ✅     |     ✅    |   ❌  |
-| Can Filter                   |      ✅      |     ✅     |     ✅    |   ❌  |
-| Can Sort                     |      ✅      |     ✅     |     ✅    |   ❌  |
-| Create Record from Dashboard |      ✅      |     ✅     |     ✅    |   ❌  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="199.80078125"></th><th align="center">Super Admin</th><th width="120.8203125" align="center">Org Admin</th><th width="107.30078125" align="center">Designer</th><th width="114.81640625" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -171,14 +117,7 @@ Notes:
 
 <summary>Strategic Priorities Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ✅    |   ❌  |
-| Can Click to Detail          |      ✅      |     ✅     |     ✅    |   ❌  |
-| Can Filter                   |      ✅      |     ✅     |     ✅    |   ❌  |
-| Can Sort                     |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Create Record from Dashboard |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="196.734375"></th><th align="center">Super Admin</th><th width="110.69921875" align="center">Org Admin</th><th align="center">Designer</th><th width="101.94921875" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -192,14 +131,7 @@ Notes:
 
 <summary>Org Strategies Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Click to Detail          |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Filter                   |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Sort                     |      ✅      |     ✅     |     ❌    |   ❌  |
-| Create Record from Dashboard |      ✅      |     ✅     |     ❌    |   ❌  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="197.9296875"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="103.4296875" align="center">Designer</th><th width="110.94140625" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -214,14 +146,7 @@ Notes:
 
 <summary>Values Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Click to Detail          |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Filter                   |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Sort                     |      ✅      |     ✅     |     ❌    |   ❌  |
-| Create Record from Dashboard |      ✅      |     ✅     |     ❌    |   ❌  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="200.46875"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="108.63671875" align="center">Designer</th><th width="110" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -236,14 +161,7 @@ Notes:
 
 <summary>Purpose Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ✅    |   ✅  |
-| Can Click to Detail          |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Can Filter                   |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Sort                     |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Create Record from Dashboard |      ✅      |     ✅     |     ❌    |   ❌  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="209.60546875"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="107.08203125" align="center">Designer</th><th width="100.53125" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -259,14 +177,7 @@ Notes:
 
 <summary>Org Member Dashboard</summary>
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Click to Detail          |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Filter                   |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Sort                     |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Create Record from Dashboard |      ✅      |     ✅     |     ❌    |   ❌  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="208.84375"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="103.90625" align="center">Designer</th><th width="103.87890625" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -283,14 +194,7 @@ Notes:
 
 
 
-|                              | Super Admin | Org Admin | Designer | User |
-| ---------------------------- | :---------: | :-------: | :------: | :--: |
-| Can View                     |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Click to Detail          |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Filter                   |      ✅      |     ✅     |     ❌    |   ❌  |
-| Can Sort                     |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
-| Create Record from Dashboard |      ✅      |     ✅     |     ❌    |   ❌  |
-| Delete from Dashboard        |      ◻️     |     ◻️    |    ◻️    |  ◻️  |
+<table><thead><tr><th width="205.61328125"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="117.625" align="center">Designer</th><th width="94.7890625" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
