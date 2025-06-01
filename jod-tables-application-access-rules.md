@@ -321,13 +321,13 @@ Notes:
 2. <mark style="color:blue;">Structure information can only be changed from the Team/Table details page or from the initial JOD Onboarder screen.</mark> &#x20;
 {% endhint %}
 
-|                        |          Super Admin         |           Org Admin          |           Designer           | User |
-| ---------------------- | :--------------------------: | :--------------------------: | :--------------------------: | :--: |
-| Can View Page & Detail |               ✅              |               ✅              |               ✅              |   ❌  |
-| Can Create Record      | <p>☑️</p><p>(See Note 1)</p> | <p>☑️</p><p>(See Note 1)</p> | <p>☑️</p><p>(See Note 1)</p> |   ❌  |
-| Can Update Records     |               ✅              |               ✅              |               ✅              |   ❌  |
-| Can Delete Records     |               ✅              |               ✅              |               ❌              |   ❌  |
-| Can Close a Team/Table |               ✅              |               ✅              |               ❌              |   ❌  |
+|                        |          Super Admin         |           Org Admin          | Designer | User |
+| ---------------------- | :--------------------------: | :--------------------------: | :------: | :--: |
+| Can View Page & Detail |               ✅              |               ✅              |     ✅    |   ❌  |
+| Can Create Record      | <p>☑️</p><p>(See Note 1)</p> | <p>☑️</p><p>(See Note 1)</p> |     ❌    |   ❌  |
+| Can Update Records     |               ✅              |               ✅              |     ✅    |   ❌  |
+| Can Delete Records     |               ✅              |               ✅              |     ❌    |   ❌  |
+| Can Close a Team/Table |               ✅              |               ✅              |     ❌    |   ❌  |
 
 {% hint style="info" %}
 Notes:
