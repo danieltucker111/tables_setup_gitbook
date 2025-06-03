@@ -20,15 +20,15 @@ description: RBAC, System, and Feature-Based
 
 <summary>Design Dashboard</summary>
 
-<table><thead><tr><th width="202.0390625"></th><th align="center">Super Admin</th><th width="115.85546875" align="center">Org Admin</th><th width="113.625" align="center">Designer</th><th width="107.58984375" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌ (??)</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">☑️</td><td align="center">☑️</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
+<table><thead><tr><th width="202.0390625"></th><th align="center">Super Admin</th><th width="115.85546875" align="center">Org Admin</th><th width="113.625" align="center">Designer</th><th width="107.58984375" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center"><p>☑️</p><p>(2)</p></td></tr><tr><td>Can Modify View</td><td align="center">✅</td><td align="center">✅</td><td align="center"><p>☑️</p><p>(3)</p></td><td align="center"><p>☑️</p><p>(3)</p></td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
-2. ☑️ = partial capacity. Can show/hide Table Participants or Represented Groups
-3. Sort = Tables and Teams only
-4. ?? = Why Not
+2. ☑️ = can access Purpose and Strategies&#x20;
+3. ☑️ = partial capacity. Can show/hide Table Participants or Represented Groups
+4. Sort = Tables and Teams only
 {% endhint %}
 
 </details>
@@ -117,7 +117,7 @@ Notes:
 
 <summary>Strategic Priorities Dashboard</summary>
 
-<table><thead><tr><th width="196.734375"></th><th align="center">Super Admin</th><th width="110.69921875" align="center">Org Admin</th><th align="center">Designer</th><th width="101.94921875" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
+<table><thead><tr><th width="196.734375"></th><th align="center">Super Admin</th><th width="110.69921875" align="center">Org Admin</th><th align="center">Designer</th><th width="101.94921875" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -161,14 +161,12 @@ Notes:
 
 <summary>Purpose Dashboard</summary>
 
-<table><thead><tr><th width="209.60546875"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="107.08203125" align="center">Designer</th><th width="100.53125" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Sort</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
+<table><thead><tr><th width="209.60546875"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th width="107.08203125" align="center">Designer</th><th width="100.53125" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Access Previous Versions</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Update Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
-2. Filter = view previous versions
-3. Records can be updated by the same groups that can create them from this dashboard (via a popup screen)
 {% endhint %}
 
 </details>
@@ -349,7 +347,7 @@ Notes:
 3. <mark style="color:blue;">These rules also apply to Strategic Priorities which are part of an Org Strategy.</mark>
 {% endhint %}
 
-<table><thead><tr><th width="159.5859375"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th align="center">Designer</th><th align="center">User</th></tr></thead><tbody><tr><td>Can View Page &#x26; Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Create Record</td><td align="center"><p>☑️</p><p>(See Note 1)</p></td><td align="center"><p>☑️</p><p>(See Note 1)</p></td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Update Records</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Delete Records</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>View Strategy Strength Review Indicator Summary Tool</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>View Strategy Strength Review Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Update Strategy Strength Review Indicator Record</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr></tbody></table>
+<table><thead><tr><th width="159.5859375"></th><th align="center">Super Admin</th><th align="center">Org Admin</th><th align="center">Designer</th><th align="center">User</th></tr></thead><tbody><tr><td>Can View Page &#x26; Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can View Previous Versions</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Create Record</td><td align="center"><p>☑️</p><p>(See Note 1)</p></td><td align="center"><p>☑️</p><p>(See Note 1)</p></td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Update Records</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Can Delete Records</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>View Strategy Strength Review Indicator Summary Tool</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>View Strategy Strength Review Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Update Strategy Strength Review Indicator Record</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
@@ -374,14 +372,13 @@ Notes:
 | ---------------------- | :--------------------------: | :--------------------------: | :------: | :--: |
 | Can View Record Detail |               ✅              |               ✅              |     ✅    |   ✅  |
 | Can Create Record      | <p>☑️</p><p>(See Note 1)</p> | <p>☑️</p><p>(See Note 1)</p> |     ❌    |   ❌  |
-| Can Update Records     |               ✅              |               ✅              |    ✅??   |  ✅?? |
-| Can Delete Records     |               ✅              |               ✅              |    ✅??   |  ✅?? |
+| Can Update Records     |               ✅              |               ✅              |     ❌    |   ❌  |
+| Can Delete Records     |               ✅              |               ✅              |     ❌    |   ❌  |
 
 {% hint style="info" %}
 Notes:
 
-1. ☑️ = These Users can create Org Strategies, but such creation must occur outside of the detail page. See Global Rules above.
-2. ?? = Issue (needs to be fixed)
+1. ☑️ = These Users can create Values, but such creation must occur outside of the detail page. See Global Rules above.
 {% endhint %}
 
 </details>
