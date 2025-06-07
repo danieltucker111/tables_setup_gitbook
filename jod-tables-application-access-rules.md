@@ -26,7 +26,7 @@ description: RBAC, System, and Feature-Based
 Notes:
 
 1. ◻️ = N/A
-2. ☑️ = can access Purpose and Strategies&#x20;
+2. ☑️ = can access Purpose, Strategies, and Priorities&#x20;
 3. ☑️ = partial capacity. Can show/hide Table Participants or Represented Groups
 4. Sort = Tables and Teams only
 {% endhint %}
@@ -117,12 +117,13 @@ Notes:
 
 <summary>Strategic Priorities Dashboard</summary>
 
-<table><thead><tr><th width="196.734375"></th><th align="center">Super Admin</th><th width="110.69921875" align="center">Org Admin</th><th align="center">Designer</th><th width="101.94921875" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
+<table><thead><tr><th width="196.734375"></th><th align="center">Super Admin</th><th width="110.69921875" align="center">Org Admin</th><th align="center">Designer</th><th width="101.94921875" align="center">User</th></tr></thead><tbody><tr><td>Can View</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Click to Detail</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td></tr><tr><td>Can Filter</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center"><p>☑️</p><p>(2)</p></td></tr><tr><td>Can Sort</td><td align="center">✅</td><td align="center">✅</td><td align="center">❌</td><td align="center">❌</td></tr><tr><td>Create Record from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr><tr><td>Delete from Dashboard</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td><td align="center">◻️</td></tr></tbody></table>
 
 {% hint style="info" %}
 Notes:
 
 1. ◻️ = N/A
+2. Users can filter for Active or Completed strategic priority items ONLY
 {% endhint %}
 
 </details>
@@ -322,7 +323,7 @@ Notes:
 | ---------------------- | :--------------------------: | :--------------------------: | :------: | :--: |
 | Can View Page & Detail |               ✅              |               ✅              |     ✅    |   ❌  |
 | Can Create Record      | <p>☑️</p><p>(See Note 1)</p> | <p>☑️</p><p>(See Note 1)</p> |     ❌    |   ❌  |
-| Can Update Records     |               ✅              |               ✅              |     ✅    |   ❌  |
+| Can Update Records     |               ✅              |               ✅              |     ❌    |   ❌  |
 | Can Delete Records     |               ✅              |               ✅              |     ❌    |   ❌  |
 | Can Close a Team/Table |               ✅              |               ✅              |     ❌    |   ❌  |
 
