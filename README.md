@@ -7,25 +7,25 @@
 Set Up Backend Database \<JoD Operations Team>
 
 1. Create customer record in database table "organization"
-   1. Organization Is Active = Yes (select)
-   2. Customer Name
-   3. Customer Logo
-   4. CFT Custom Report = No (select)
-   5. Set Org Phase = Phase 1
-   6. Hex Code for Primary Org Color (used for Strat Slide Rpt)
-   7. Custom Priority Sort Order = Strategy Sort Order
-   8. Label\_Design\_Purpose:
+   1. CFT Custom Report = No (select)
+   2. Custom Priority Sort Order = Strategy Sort Order
+   3. Hex Code for Primary Org Color (used for Strat Slide Rpt)
+   4. Label\_Design\_Priority:
+      1. Empty = Our Priorities
+      2. Suggested: "Our current strategic priorities for success are:"
+   5. Label\_Design\_Purpose:
       1. Empty = Our Purpose
       2. Suggested: "As an organization, we exist to:"
-   9. Label\_Design\_Strategy:
+   6. Label\_Design\_Strategy:
       1. Empty = Our Strategy (ies)
       2. Suggested: "We will succeed because we:"
-   10. Label\_Design\_Priority:
-       1. Empty = Our Priorities
-       2. Suggested: "Our current strategic priorities for success are:"
-   11. Label\_Design\_Structure:
-       1. Empty = Our Groups
-       2. Suggested: "We have organized ourselves for success in this way:"
+   7. Label\_Design\_Structure:
+      1. Empty = Our Groups
+      2. Suggested: "We have organized ourselves for success in this way:"
+   8. Customer Logo
+   9. Customer Name
+   10. Set Org Phase = Phase 1
+   11. Organization Is Active = Yes (select)
    12. Slug
 2. Create initial Org Member(s) in the org\_members table
    1. Organization\_ID
