@@ -10,9 +10,11 @@ description: RBAC, System, and Feature-Based
 
 This is the standard role for most people using JustOrg Design. As a User, you can fully participate in the teams and groups you belong to. You'll see everything you need for your own work, but you won't see the detailed activities of other groups. This role also applies to people who lead groups (Group Conveners).
 
-#### Insight
+#### Insight&#x20;
 
-This role works just like the User role, with one addition: you can see all reports in the system. Organizations typically give this role to board members or senior leaders who need a broader view of what's happening (see Reporting below).
+This role works just like the User role, with one addition: you can see ALL reports in the system. Organizations typically give this role to board members or senior leaders who need a broad and deep view of what's happening across the organization (see Reporting below).&#x20;
+
+⚠️ ALL teams' and tables' decisions and actions are visible via reports.&#x20;
 
 #### Org View
 
