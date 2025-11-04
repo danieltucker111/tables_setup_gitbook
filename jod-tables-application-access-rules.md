@@ -20,7 +20,7 @@ This role is for leaders who need to see the big picture across the entire organ
 
 #### Org Admin
 
-This is your organization's power user role. Org Admins set up and manage the core structure of your JustOrg Design system—things like your organization's strategies, teams, and frameworks. They also manage who has access to the system. Like Org View, this role can only actively work in groups where they're a member. Because this role can make major changes to your organization's setup, we recommend limiting it to just a few trusted people.
+This is your organization's power user role. Org Admins set up and manage the core structure of your JustOrg Design system—things like your organization's strategies, priorities, and structures. They also manage who has access to the system. Like Org View, this role can only actively work in groups where they're a member. Because this role can make major changes to your organization's setup, we recommend limiting it to just a few trusted people.
 
 #### Super Admin
 
